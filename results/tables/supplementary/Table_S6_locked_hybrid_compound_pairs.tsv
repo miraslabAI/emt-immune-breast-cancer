@@ -1,0 +1,6 @@
+priority	role	agent_A	agent_B	target_A	target_B	rationale	claim_limit	evidence_anchor
+1	primary_reference	sapitinib (AZD8931)	capivasertib (AZD5363)	pan-EGFR/HER2/HER3	pan-AKT	direct breast preclinical synergy and regression; same mechanistic pair	research reference; not a clinical recommendation	PMID:26095475
+2	primary_translational_class_test	neratinib	capivasertib	irreversible pan-HER	pan-AKT	tests whether the reference effect transfers to a currently marketed pan-HER/AKT pair	exact pair efficacy and safety are not established; anticipate overlapping diarrhea/rash	FDA labels; class-analogue inference
+3	orthogonal_AKT_control	sapitinib (AZD8931)	MK-2206	pan-EGFR/HER2/HER3	allosteric AKT	orthogonal AKT chemistry and nominal DrugComb state signal	research-only mechanism control	project DrugComb stage 17
+4	secondary_mTOR_reference	sapitinib (AZD8931)	vistusertib (AZD2014)	pan-EGFR/HER2/HER3	dual mTORC1/2	exact nominal DrugComb discovery pair	no corrected synergy; research-only	project DrugComb stage 17
+5	secondary_mTOR_class_test	neratinib	vistusertib (AZD2014)	irreversible pan-HER	dual mTORC1/2	tests pan-HER class transfer for the mTOR hypothesis	exact pair unvalidated; research-only	class-analogue inference

@@ -1,0 +1,4 @@
+emt_state	nonredundant_pathway_representatives	dominant_biology	multiscale_status	therapy_position
+epithelial-enriched	75	metabolic adaptation, protein/RNA homeostasis and growth signaling	unresolved	no combination promoted
+hybrid-peak	12	adhesion/ECM motility plus ERBB growth-survival signaling	malignant and spatially qualified	pan-ErbB + AKT first; pan-ErbB + mTORC1/2 second
+mesenchymal-enriched	94	ECM/integrin, inflammatory, hypoxia/angiogenesis and immune incompletion	malignant identity supported; vascular function unresolved	antiangiogenic remodeling + checkpoint in vascularized models

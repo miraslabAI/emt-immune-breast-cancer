@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Code for EMT-state immune-cycle bottlenecks across breast cancer ecosystems"
+type: software
+authors:
+  - family-names: Hariri
+    given-names: Amirali
+  - family-names: Mirian
+    given-names: Mina
+    email: mina.mirian@pharm.mui.ac.ir
+date-released: 2026-11-14
+repository-code: ""
+license: "LicenseRef-NONE"

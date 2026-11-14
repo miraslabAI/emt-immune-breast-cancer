@@ -1,0 +1,10 @@
+order	item	frozen_rule	failure_action_or_note
+1	plate_QC	blank-subtracted vehicle CV <=20% and Z-prime >=0.5 using positive-kill and vehicle controls	exclude plate before viewing combination scores
+2	normalization	normalize to within-plate vehicle median after blank subtraction; retain raw luminescence	no cross-plate rescaling by treatment response
+3	primary_estimand	mean Bliss excess across the complete 5x5 non-zero combination grid, averaged across technical replicates	do not select the maximum local synergy cell
+4	secondary_estimands	ZIP, Loewe and HSA over the same locked grid	supportive; no substitution for failed primary estimand
+5	model_positive	median Bliss score >10, bootstrap 95% CI above 0, and positive direction in all 3 biological repeats	all conditions required
+6	pair_advance	positive in >=3 of 4 core Hybrid models, including >=1 HER2+ and >=1 TNBC model	controls are not counted toward numerator
+7	state_specificity	interaction contrast stronger in core Hybrid models than both Hybrid/ERBB-low and non-Hybrid/ERBB-high controls	report effect and CI; do not infer from separate p values
+8	mechanism	combined suppression of pERBB feedback and pPRAS40/pS6 plus apoptosis beyond both single agents	required before declaring mechanistic combination support
+9	multiplicity	Holm adjustment across the two primary pairs for the pair-level primary test	secondary metrics remain labeled secondary

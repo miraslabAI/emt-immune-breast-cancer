@@ -1,0 +1,19 @@
+strategy	gate	evidence_layer	estimate	fdr	expected_direction	source_n	gate_result	note
+mesenchymal_antiangiogenic_IO	malignant_state_identity	GSE176078 malignant metacells	133.0	0.0	descriptive	15	PASS	
+mesenchymal_antiangiogenic_IO	malignant_TGFB_ECM_coupling	GSE176078 within-patient	0.0872923191014132	0.0030910876178066	positive	20	PASS	
+mesenchymal_antiangiogenic_IO	T_cell_proximity	NeoTRIP paired spatial	0.3560474195919804	0.0004285285757138	positive	105	PASS	
+mesenchymal_antiangiogenic_IO	tumor_antigen_visibility	NeoTRIP paired spatial	0.2084983357315762	0.026179200261792	positive	105	PASS	
+mesenchymal_antiangiogenic_IO	checkpoint_engagement	NeoTRIP paired spatial	0.2808454725993218	0.0004285285757138	positive	105	PASS	
+mesenchymal_antiangiogenic_IO	incomplete_T_cell_execution	NeoTRIP paired spatial	-0.0846393769838481	0.0364578926722712	negative	99	PASS	
+mesenchymal_antiangiogenic_IO	stromal_adjacency	NeoTRIP paired spatial	0.4350378602148294	0.0004285285757138	positive	105	PASS	
+mesenchymal_antiangiogenic_IO	functional_stromal_barrier	NeoTRIP paired spatial	0.0139023175427828	0.806363808063638	positive	104	FAIL	
+mesenchymal_antiangiogenic_IO	vascular_normalization_mechanism	not measured in current spatial panel	0.0	1.0	unavailable	0	UNRESOLVED	required for antiangiogenic translation; angiogenesis bulk signal is not a spatial functional readout
+hybrid_panERBB_vertical_blockade	malignant_state_identity	GSE176078 malignant metacells	116.0	0.0	descriptive	11	PASS	
+hybrid_panERBB_vertical_blockade	malignant_antigen_presentation	GSE176078 within-patient	0.3309903908325506	0.005827521874127	positive	20	PASS	
+hybrid_panERBB_vertical_blockade	malignant_T_NK_recruitment	GSE176078 within-patient	0.328730867373354	0.005827521874127	positive	20	PASS	
+hybrid_panERBB_vertical_blockade	malignant_TGFB_ECM_coupling	GSE176078 within-patient	0.2967738731163884	0.0005546006382669	positive	20	PASS	
+hybrid_panERBB_vertical_blockade	T_cell_proximity	NeoTRIP paired spatial	0.1065750763409818	0.0374962503749625	positive	111	PASS	
+hybrid_panERBB_vertical_blockade	tumor_antigen_visibility	NeoTRIP paired spatial	0.3654862892785405	0.0004285285757138	positive	111	PASS	
+hybrid_panERBB_vertical_blockade	checkpoint_engagement	NeoTRIP paired spatial	0.2060578958394641	0.0004285285757138	positive	111	PASS	
+hybrid_panERBB_vertical_blockade	functional_stromal_barrier	NeoTRIP paired spatial	0.0368468445134451	0.031996800319968	positive	111	PASS	
+hybrid_panERBB_vertical_blockade	ERBB_dependency_anchor	stage-19 pharmacogenomic evidence	1.0	4.04e-10	positive	70	PASS	ERBB2 anchor global FDR; exact combination efficacy remains unvalidated

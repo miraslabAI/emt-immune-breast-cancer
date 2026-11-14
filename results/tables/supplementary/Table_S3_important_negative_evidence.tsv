@@ -1,0 +1,6 @@
+negative_or_null_result	count_passing_primary_gate	interpretation
+global state-selective pharmacogenomic validation	0	no candidate passed global FDR < 0.10
+DrugComb state-specific synergy	0	no locked pair passed global FDR < 0.10
+Hybrid subtype-adjusted robustness	0	directional robustness is not corrected validation
+compact bulk malignant EMT selector	0	rejected because of cellular-origin and cross-cohort portability limits
+Epithelial combination	0	no combination met promotion criteria

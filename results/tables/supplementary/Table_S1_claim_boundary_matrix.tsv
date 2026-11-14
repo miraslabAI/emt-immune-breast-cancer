@@ -1,0 +1,10 @@
+statement	allowed	basis
+EMT states have distinct pathway and immune-ecosystem configurations	True	replicated bulk, single-cell and spatial evidence
+Hybrid tumors are prioritized for pan-ErbB vertical-blockade experiments	True	validated ERBB anchor plus multiscale Hybrid qualification
+Mesenchymal tumors motivate vascular/immune remodeling experiments	True	ecosystem evidence; vascular mechanism remains unresolved
+A treatment-predictive biomarker has been established	False	no independent treatment-arm validation
+Any proposed combination has validated efficacy	False	no prospective response data and no corrected independent combination validation
+One regimen should be used across all EMT states	False	state biology and evidence are non-interchangeable
+The compact bulk panel is a malignant-cell selector	False	cellular-origin and portability gates failed
+The therapy scores rank hypothesis eligibility	True	outcome-blind and stable across tested weights
+The therapy scores predict patient response	False	weights were not fit to treatment outcomes

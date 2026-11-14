@@ -1,0 +1,119 @@
+{
+  "generated_utc": "2026-10-30T22:48:08.303396+00:00",
+  "python": {
+    "executable": "<local_path>",
+    "version": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+    "prefix": "<local_path>",
+    "base_prefix": "<local_path>"
+  },
+  "conda": {
+    "default_env": "ai-bio-core",
+    "prefix": "<local_path>",
+    "list_returncode": null,
+    "packages": [],
+    "stderr": "FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)"
+  },
+  "system": {
+    "platform": "Windows-10-10.0.22631-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 20
+  },
+  "modules": {
+    "numpy": {
+      "available": true,
+      "version": "1.26.4"
+    },
+    "pandas": {
+      "available": true,
+      "version": "2.3.3"
+    },
+    "scipy": {
+      "available": true,
+      "version": "1.15.2"
+    },
+    "sklearn": {
+      "available": true,
+      "version": "1.7.2"
+    },
+    "statsmodels": {
+      "available": true,
+      "version": "0.14.6"
+    },
+    "h5py": {
+      "available": true,
+      "version": "3.13.0"
+    },
+    "anndata": {
+      "available": true,
+      "version": "0.11.4"
+    },
+    "scanpy": {
+      "available": true,
+      "version": "1.11.5"
+    },
+    "torch": {
+      "available": true,
+      "version": "2.2.2+cu121"
+    },
+    "lifelines": {
+      "available": false,
+      "error": "ModuleNotFoundError(\"No module named 'lifelines'\")"
+    },
+    "sksurv": {
+      "available": false,
+      "error": "ModuleNotFoundError(\"No module named 'sksurv'\")"
+    },
+    "xgboost": {
+      "available": true,
+      "version": "3.2.0"
+    },
+    "lightgbm": {
+      "available": true,
+      "version": "4.6.0"
+    },
+    "rdkit": {
+      "available": true,
+      "version": "2026.03.2"
+    }
+  },
+  "torch_cuda": {
+    "available": true,
+    "torch_version": "2.2.2+cu121",
+    "cuda_available": true,
+    "torch_cuda_version": "12.1",
+    "cudnn_version": 8801,
+    "gpu_count": 1,
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 3060",
+        "capability": [
+          8,
+          6
+        ],
+        "total_memory_bytes": 12884377600
+      }
+    ]
+  },
+  "nvidia_smi": {
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=name,driver_version,memory.total,compute_cap",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 3060, 581.42, 12288 MiB, 8.6\n",
+    "stderr": ""
+  },
+  "r_session": {
+    "command": [
+      "C:\\Program Files\\R\\R-4.5.1\\bin\\Rscript.exe",
+      "-e",
+      "sessionInfo()"
+    ],
+    "returncode": 0,
+    "stdout": "R version 4.5.1 (2025-06-13 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 11 x64 (build 22631)\n\nMatrix products: default\n  LAPACK version 3.12.1\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\ntime zone: Asia/Tehran\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n[1] compiler_4.5.1\n",
+    "stderr": ""
+  }
+}
