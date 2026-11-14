@@ -1,0 +1,15 @@
+02_data/
+04_analysis/
+05_results/figures/
+*.h5ad
+*.h5
+*.rds
+*.RData
+*.parquet
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
