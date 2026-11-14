@@ -44,4 +44,6 @@ The repository supports the reported biological model and state-qualified experi
 
 ## License
 
-No software license has been selected in this deposit. The authors should add an institutional-approved open-source license before making the GitHub repository public.
+## License
+
+This software is released under the MIT License. See `LICENSE` for details.
